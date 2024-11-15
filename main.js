@@ -1,4 +1,5 @@
 // Select element function
+
 const selectElement = function (element) {
 	return document.querySelector(element);
 };
@@ -22,15 +23,6 @@ menuItems.forEach((item) => {
 		body.classList.remove("open");
 	});
 });
-
-// const selectElement = function(element) {
-//  return document.querySelector(element);
-// };
-
-// let menuToggler = selectElement(".menu-toggle");
-// let body = selectElement("body");
-
-// menuToggler.addEventListener("click", function() { body.classList.toggle("open"); });
 
 // scroll reveal
 window.sr = ScrollReveal();
